@@ -70,98 +70,51 @@ a {
     color: #2196F3;
 }
 
-/*main*/
-.main {
-    background: #2F303A;
-}
-
-.main-text {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
+/*BUTTON-NAVIGATION*/
+.but-nav {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
     text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #FFFFFF;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    color: #212121;
+    background: #F5F4FA;
+
 }
 
-.main-button {
+.but-nav:active {
+    color: #FFFFFF;
     background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    /* shadow-middle */
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
 
-.main-button-text {
-    font-style: normal;
+/*ul: photo+h2+p*/
+.container {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+.text-cont {
     font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    /* identical to box height, or 188% */
-    display: flex;
-    align-items: center;
-    text-align: center;
+    font-size: 18px;
+    line-height: 2;
     letter-spacing: 0.06em;
 
-    color: #FFFFFF;
-}
-
-/*content*/
-.content-text {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #212121;
 }
 
-.content-about {
+.about-cont {
     font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 1.8;
     letter-spacing: 0.03em;
     color: #757575;
 }
 
-.content-main {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-}
-
-/*TEAM*/
-.team-main {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-}
-
-.team-name {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-}
-
-.team-about {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    /* identical to box height */
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #757575;
-}
-
-/*footer*/
 /*footer*/
 .footer {
     background: #2F303A;
