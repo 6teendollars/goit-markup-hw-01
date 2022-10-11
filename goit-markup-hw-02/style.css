@@ -117,9 +117,6 @@ head {
 }
 
 /*ul: photo+h2+p*/
-.container {
-    box-sizing: border-box;
-}
 
 .text-cont {
     font-weight: 700;
