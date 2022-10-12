@@ -2,7 +2,7 @@
     --color-one: #2196F3;
     --color-two: #757575;
     --color-three: #212121;
-    --color-four:#FFFFFF;
+    --color-four: #FFFFFF;
 }
 
 body {
@@ -35,7 +35,7 @@ head {
 
 .logo {
 
-    font-family: 'Raleway',
+    font-family: 'Raleway'
         sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -65,6 +65,10 @@ head {
     color: var(--color-one);
 }
 
+.menu.navigation:focus {
+    color: var(--color-one);
+}
+
 /*LINKS*/
 .mail-link {
     font-family: 'Roboto',
@@ -88,6 +92,10 @@ head {
     color: var(--color-two);
 }
 
+.links .mail-link .phone-link:focus {
+    color: var(--color-one);
+}
+
 .mail-link:hover {
     color: var(--color-one);
 }
@@ -98,7 +106,7 @@ head {
 
 /*BUTTON-NAVIGATION*/
 .but-nav {
-    font-family: 'Roboto',
+    font-family: 'Roboto' serif,
         sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -119,6 +127,10 @@ head {
     /* shadow-middle */
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+}
+
+.button-navigation .but-nav:focus {
+    color: var(--color-one);
 }
 
 /*ul: photo+h2+p*/
@@ -164,13 +176,53 @@ head {
     color: var(--color-one);
 }
 
+
 .place {
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
     line-height: calc(24 / 14);
     /* or 171% */
     letter-spacing: 0.03em;
 
     color: var(--color-four);
+}
+
+.place:focus {
+    color: var(--color-one);
+}
+
+/*LINKS*/
+.mail-link-two {
+    font-family: 'Roboto',
+        sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+    color: var(--color-two);
+}
+
+.phone-link-two {
+    font-family: 'Roboto',
+        sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+    color: var(--color-two);
+}
+
+.mail-link-two:hover {
+    color: var(--color-one);
+}
+
+.phone-link-two :hover {
+    color: var(--color-one);
+}
+
+.links-two .mail-link-two .phone-link-two:focus {
+    color: var(--tx-color);
 }
