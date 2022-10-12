@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-family: 'Raleway', sans-serif;
+
 }
 
 /*all*/
@@ -21,18 +21,15 @@ a {
     color: inherit;
 }
 
-.menu .links .main:focus {
-    color: var(--first-color);
-}
 
 /*HEADER*/
 head {
-    background-color: #FFFFFF;
+    background-color: var(--tx-color);
 }
 
 .logo {
 
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 / 26);
@@ -62,23 +59,29 @@ head {
     color: var(--first-color);
 }
 
+.menu .navigation:focus {
+    color: var(--first-color);
+}
+
 /*LINKS*/
 .mail-link {
-    font-family: 'Roboto';
+    font-family: 'Roboto',
+        sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.1;
+    line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--color-three);
 }
 
 .phone-link {
-    font-family: 'Roboto';
+    font-family: 'Roboto',
+        sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.1;
+    line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--color-three);
 }
@@ -89,6 +92,10 @@ head {
 
 .phone-link :hover {
     color: var(--first-color);
+}
+
+.links .mail-link .phone-link:focus {
+    color: var(--tx-color);
 }
 
 /*main*/
@@ -107,29 +114,31 @@ head {
 }
 
 .main-button {
+    font-family: 'Roboto',
+        sans-serif;
     background: var(--first-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
-}
-
-.main-button-text {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: calc(30 / 16);
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
     color: var(--tx-color);
 }
 
+.main .main-button:focus {
+    color: black;
+}
+
+.main-button {
+    background: #188CE8;
+}
+
 /*content*/
 .block-one {
-    background-color: #FFFFFF;
+    background-color: var(--tx-color);
 }
 
 .content-text {
@@ -164,7 +173,7 @@ head {
 }
 
 .block-team-one {
-    background-color: #FFFFFF;
+    background-color: var(--tx-color);
 }
 
 .team-main {
@@ -203,7 +212,8 @@ head {
 
 .logo-second {
 
-    font-family: 'Raleway';
+    font-family: 'Raleway',
+        sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 / 26);
@@ -212,7 +222,7 @@ head {
 }
 
 .logo-black-second {
-    color: #FFFFFF;
+    color: var(--tx-color);
 }
 
 .logo-blue-second {
@@ -222,11 +232,50 @@ head {
 
 .place {
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
     line-height: calc(24 / 14);
     /* or 171% */
     letter-spacing: 0.03em;
 
+    color: var(--tx-color);
+}
+
+.place:focus {
+    color: var(--first-color);
+}
+
+/*LINKS*/
+.mail-link-two {
+    font-family: 'Roboto',
+        sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+    color: var(--color-three);
+}
+
+.phone-link-two {
+    font-family: 'Roboto',
+        sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+    color: var(--color-three);
+}
+
+.mail-link-two:hover {
+    color: var(--first-color);
+}
+
+.phone-link-two :hover {
+    color: var(--first-color);
+}
+
+.links-two .mail-link-two .phone-link-two:focus {
     color: var(--tx-color);
 }

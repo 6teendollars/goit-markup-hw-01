@@ -2,15 +2,16 @@
     --color-one: #2196F3;
     --color-two: #757575;
     --color-three: #212121;
+    --color-four:#FFFFFF;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-family: 'Raleway', sans-serif;
+
 }
 
 main {
-    background-color: #FFFFFF;
+    background-color: var(--color-four);
 }
 
 /*all*/
@@ -29,12 +30,13 @@ a {
 
 /*HEADER*/
 head {
-    background-color: #FFFFFF;
+    background-color: var(--color-four);
 }
 
 .logo {
 
-    font-family: 'Raleway';
+    font-family: 'Raleway',
+        sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 / 26);
@@ -65,7 +67,8 @@ head {
 
 /*LINKS*/
 .mail-link {
-    font-family: 'Roboto';
+    font-family: 'Roboto',
+        sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -75,7 +78,8 @@ head {
 }
 
 .phone-link {
-    font-family: 'Roboto';
+    font-family: 'Roboto',
+        sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -94,7 +98,8 @@ head {
 
 /*BUTTON-NAVIGATION*/
 .but-nav {
-    font-family: 'Roboto';
+    font-family: 'Roboto',
+        sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: calc(26 / 16);
@@ -109,7 +114,7 @@ head {
 
 .but-nav:active {
     cursor: pointer;
-    color: #FFFFFF;
+    color: var(--color-four);
     background: var(--color-one);
     /* shadow-middle */
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -142,7 +147,8 @@ head {
 
 .logo-second {
 
-    font-family: 'Raleway';
+    font-family: 'Raleway',
+        sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 / 26);
@@ -151,7 +157,7 @@ head {
 }
 
 .logo-black-second {
-    color: #FFFFFF;
+    color: var(--color-four);
 }
 
 .logo-blue-second {
@@ -166,5 +172,5 @@ head {
     /* or 171% */
     letter-spacing: 0.03em;
 
-    color: #FFFFFF;
+    color: var(--color-four);
 }
