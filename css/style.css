@@ -176,7 +176,7 @@ head {
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
     color: var(--color-three);
-} 
+}
 
 .content-main {
     font-weight: 700;
