@@ -1,3 +1,8 @@
+button,
+a:focus {
+    color: var(--color-one);
+}
+
 :root {
     --color-one: #2196F3;
     --color-two: #757575;
@@ -65,7 +70,7 @@ head {
     color: var(--color-one);
 }
 
-.menu.navigation:focus {
+.menu .navigation:focus {
     color: var(--color-one);
 }
 
@@ -76,7 +81,7 @@ head {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.1;
+    line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--color-two);
 }
@@ -87,14 +92,11 @@ head {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.1;
+    line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--color-two);
 }
 
-.links .mail-link .phone-link:focus {
-    color: var(--color-one);
-}
 
 .mail-link:hover {
     color: var(--color-one);
@@ -104,10 +106,14 @@ head {
     color: var(--color-one);
 }
 
+.links>a:focus {
+    color: var(--color-one);
+
+}
+
 /*BUTTON-NAVIGATION*/
 .but-nav {
-    font-family: 'Roboto' serif,
-        sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: calc(26 / 16);
@@ -120,7 +126,7 @@ head {
 
 }
 
-.but-nav:active {
+.but-nav:hover {
     cursor: pointer;
     color: var(--color-four);
     background: var(--color-one);
@@ -130,7 +136,8 @@ head {
 }
 
 .button-navigation .but-nav:focus {
-    color: var(--color-one);
+    background-color: var(--color-one);
+    color: var(--color-four);
 }
 
 /*ul: photo+h2+p*/
