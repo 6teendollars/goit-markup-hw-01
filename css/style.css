@@ -5,14 +5,14 @@
     --tx-color: #FFFFFF;
 }
 
-button,
-a:focus {
-    color: var(--first-color);
-}
-
 body {
     font-family: 'Roboto', sans-serif;
 
+}
+
+button,
+a:focus {
+    color: var(--first-color);
 }
 
 /*all*/
