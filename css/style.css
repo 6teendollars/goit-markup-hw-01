@@ -7,6 +7,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    width: 1600px;
+
 
 }
 
@@ -26,10 +28,35 @@ a {
     color: inherit;
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
 
 /*HEADER*/
 head {
     background-color: var(--tx-color);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -41,6 +68,11 @@ head {
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;
     color: var(--first-color);
+
+    margin-right: 93px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
 }
 
 .logo-black {
@@ -52,13 +84,26 @@ head {
 }
 
 /*NAVIGATION*/
-.navigation {
+.menu {
+    display: flex;
+    padding: 0;
 
+
+}
+
+.menu-nav {
+    margin-right: 50px;
+}
+
+.navigation {
+    display: block;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
     color: var(--second-color);
+
+
 }
 
 .navigation:hover {
@@ -70,26 +115,39 @@ head {
 }
 
 /*LINKS*/
+.links {
+    padding: 0;
+    margin-left: auto;
+}
+
+.links-container {
+    display: flex;
+    align-items: center;
+}
+
+
+
 .mail-link {
     font-family: 'Roboto',
         sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--color-three);
+    margin-right: 50px;
+
 }
 
 .phone-link {
     font-family: 'Roboto',
         sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--color-three);
+
 }
 
 .mail-link:hover {
@@ -107,9 +165,12 @@ head {
 /*main*/
 .main {
     background: #2F303A;
+    display: flex;
 }
 
 .main-text {
+    display: block;
+    width: 696px;
     font-weight: 900;
     font-size: 44px;
     line-height: calc(60 / 44);
@@ -117,11 +178,16 @@ head {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--tx-color);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 30px;
 }
 
 .main-button {
     font-family: 'Roboto',
         sans-serif;
+    display: flex;
     background: var(--first-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -132,6 +198,9 @@ head {
     letter-spacing: 0.06em;
     cursor: pointer;
     color: var(--tx-color);
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main-button-text {
@@ -162,6 +231,14 @@ head {
     background-color: var(--tx-color);
 }
 
+.content {
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+
+}
+
 .content-text {
     font-weight: 700;
     font-size: 14px;
@@ -169,6 +246,9 @@ head {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--second-color);
+    width: 270px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .content-about {
@@ -177,20 +257,49 @@ head {
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
     color: var(--color-three);
+    width: 270px;
+    margin: 0;
 }
 
 .content-main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 50px;
+
+
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42 / 36);
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--second-color);
+
+}
+
+.photo-block {
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
 }
 
 /*TEAM*/
-.block-team {
+.team-section {
     background-color: #F5F4FA;
+
+}
+
+.block-team {
+
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+
 }
 
 .block-team-one {
@@ -198,6 +307,10 @@ head {
 }
 
 .team-main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42 / 36);
@@ -229,6 +342,14 @@ head {
 /*footer*/
 .footer {
     background: #2F303A;
+    padding: 0;
+}
+
+.logo-conteiner {
+    display: inline-block;
+    margin-top: 60px;
+    margin-right: 1240px;
+    margin-bottom: 20px;
 }
 
 .logo-second {
@@ -250,6 +371,27 @@ head {
     color: var(--first-color);
 }
 
+.address {
+    display: block;
+
+}
+
+.address-list {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.address-bottom {
+    margin-bottom: 9px;
+
+}
+
+.address-bottom-last {
+    display: inline-block;
+    margin-bottom: 60px;
+}
 
 .place {
     font-style: normal;
@@ -276,6 +418,7 @@ head {
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--color-three);
+
 }
 
 .phone-link-two {
@@ -287,6 +430,7 @@ head {
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--color-three);
+
 }
 
 .mail-link-two:hover {
