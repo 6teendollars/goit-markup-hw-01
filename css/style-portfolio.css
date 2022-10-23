@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    width: 1600px;
 
 }
 
@@ -33,10 +34,23 @@ a {
     color: var(--first-color);
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
 /*HEADER*/
 head {
     background-color: var(--color-four);
 }
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
 
 .logo {
     font-family: 'Raleway'
@@ -46,6 +60,10 @@ head {
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;
     color: var(--color-one);
+
+    margin-right: 93px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .logo-black {
@@ -57,12 +75,23 @@ head {
 }
 
 /*NAVIGATION*/
+.menu {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
 .navigation {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
     color: var(--color-three);
+
+}
+
+.nav-menu {
+    margin-right: 30px;
 }
 
 .navigation:hover {
@@ -74,6 +103,13 @@ head {
 }
 
 /*LINKS*/
+.links {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding: 0;
+}
+
 .mail-link {
     font-family: 'Roboto',
         sans-serif;
@@ -83,6 +119,7 @@ head {
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--color-two);
+    margin-right: 50px;
 }
 
 .phone-link {
@@ -111,6 +148,27 @@ head {
 }
 
 /*BUTTON-NAVIGATION*/
+/* main {
+    background-color: #F5F5F5;
+} */
+.box-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.button-navigation {
+
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 34px;
+}
+
+
+
+
 .but-nav {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -122,6 +180,8 @@ head {
     cursor: pointer;
     color: var(--color-three);
     background: #F5F4FA;
+
+
 
 }
 
@@ -140,6 +200,19 @@ head {
 }
 
 /*ul: photo+h2+p*/
+.box {
+    padding: 0;
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.box-container {
+    width: 370px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
 
 .text-cont {
     font-weight: 700;
@@ -148,6 +221,11 @@ head {
     letter-spacing: 0.06em;
 
     color: var(--color-three);
+
+    margin-top: 20px;
+    margin-bottom: 4px;
+    margin-left: 24px;
+    margin-right: 24px;
 }
 
 .about-cont {
@@ -156,6 +234,10 @@ head {
     line-height: 1.8;
     letter-spacing: 0.03em;
     color: var(--color-two);
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 24px;
+    margin-right: 24px;
 }
 
 /*footer*/
@@ -172,6 +254,10 @@ head {
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;
     color: var(--first-color);
+    padding: 0;
+    display: inline-block;
+    margin-top: 60px;
+    margin-bottom: 20px;
 }
 
 .logo-black-second {
@@ -182,6 +268,12 @@ head {
     color: var(--color-one);
 }
 
+.footer-list {
+    padding: 0;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 .place {
     font-style: normal;
@@ -208,6 +300,12 @@ head {
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--color-two);
+
+}
+
+.links-mail {
+    margin-top: 9px;
+    margin-bottom: 9px;
 }
 
 .phone-link-two {
@@ -219,6 +317,8 @@ head {
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--color-two);
+    display: inline-block;
+    margin-bottom: 60px;
 }
 
 .mail-link-two:hover {
