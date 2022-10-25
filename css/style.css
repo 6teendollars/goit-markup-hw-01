@@ -7,9 +7,21 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    width: 1600px;
+}
 
+img {
+    display: block;
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0;
+    margin: 0;
 }
 
 button,
@@ -18,9 +30,17 @@ a:focus {
 }
 
 /*all*/
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 li {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 a {
@@ -43,8 +63,9 @@ a {
 }
 
 /*HEADER*/
-head {
+header {
     background-color: var(--tx-color);
+    border-bottom: 1px solid #ECECEC;
 }
 
 .header {
@@ -54,6 +75,8 @@ head {
 
 }
 
+
+
 .header-container {
     display: flex;
     align-items: center;
@@ -61,7 +84,7 @@ head {
 
 .logo {
 
-    font-family: 'Raleway'
+    font-family: 'Raleway',
         sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -166,10 +189,12 @@ head {
 .main {
     background: #2F303A;
     display: flex;
+    padding: 200px 0;
+
 }
 
 .main-text {
-    display: block;
+    display: flex;
     width: 696px;
     font-weight: 900;
     font-size: 44px;
@@ -178,16 +203,29 @@ head {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--tx-color);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 200px;
-    margin-bottom: 30px;
+
+    padding: 0;
+
+}
+
+button {
+    display: block;
+}
+
+.button-container {
+
+
+    padding: 0;
+    margin-top: 30px;
 }
 
 .main-button {
     font-family: 'Roboto',
         sans-serif;
-    display: flex;
+    display: block;
+    width: 260px;
+    height: 50px;
+    border: none;
     background: var(--first-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -198,17 +236,20 @@ head {
     letter-spacing: 0.06em;
     cursor: pointer;
     color: var(--tx-color);
-    margin-bottom: 200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    padding: 0;
 }
+
+
 
 .main-button-text {
     font-weight: 700;
     font-size: 16px;
     line-height: calc(30 / 16);
-    letter-spacing: 0.06em;
     color: var(--tx-color);
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 .main-button:focus {
@@ -229,13 +270,13 @@ head {
 /*content*/
 .block-one {
     background-color: var(--tx-color);
+
 }
 
 .content {
     display: flex;
     gap: 30px;
-    margin: 0;
-    padding: 0;
+
 
 }
 
@@ -247,25 +288,28 @@ head {
     text-transform: uppercase;
     color: var(--second-color);
     width: 270px;
-    margin-top: 0;
+
     margin-bottom: 10px;
 }
 
 .content-about {
-    font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
     color: var(--color-three);
     width: 270px;
-    margin: 0;
+
+}
+
+.we-do {
+    padding-top: 0;
 }
 
 .content-main {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0;
+
     margin-bottom: 50px;
 
 
@@ -283,11 +327,13 @@ head {
     gap: 30px;
     padding: 0;
     margin: 0;
+
 }
 
 /*TEAM*/
 .team-section {
     background-color: #F5F4FA;
+
 
 }
 
@@ -295,28 +341,29 @@ head {
 
     display: flex;
     gap: 30px;
-    padding: 0;
-    margin-left: auto;
-    margin-right: auto;
+
 
 
 }
 
 .block-team-one {
     background-color: var(--tx-color);
+    background: #FFFFFF;
+    /* material shadow v1 */
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-main {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0;
+
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42 / 36);
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--second-color);
+    margin-bottom: 50px;
 }
 
 .team-name {
@@ -326,6 +373,9 @@ head {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--second-color);
+    padding-top: 30px;
+    margin-bottom: 10px;
+
 }
 
 .team-about {
@@ -336,19 +386,20 @@ head {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--color-three);
+    padding-bottom: 30px;
 }
 
 /*footer*/
 /*footer*/
 .footer {
     background: #2F303A;
-    padding: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
 }
 
 .logo-conteiner {
     display: inline-block;
-    margin-top: 60px;
-    margin-right: 1240px;
     margin-bottom: 20px;
 }
 
@@ -388,10 +439,6 @@ head {
 
 }
 
-.address-bottom-last {
-    display: inline-block;
-    margin-bottom: 60px;
-}
 
 .place {
     font-style: normal;

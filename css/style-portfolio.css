@@ -7,9 +7,30 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    width: 1600px;
+
 
 }
+
+img {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 
 button,
 a:focus {
@@ -42,18 +63,23 @@ a {
 }
 
 /*HEADER*/
-head {
+header {
     background-color: var(--color-four);
+    border-bottom: 1px solid #ECECEC;
+
 }
 
 .header-container {
     display: flex;
     align-items: center;
+
 }
 
 
+
+
 .logo {
-    font-family: 'Raleway'
+    font-family: 'Raleway',
         sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -78,7 +104,7 @@ head {
 .menu {
     display: flex;
     align-items: center;
-    padding: 0;
+
 }
 
 .navigation {
@@ -161,9 +187,8 @@ head {
     display: flex;
     gap: 8px;
     justify-content: center;
-    padding: 0;
-    margin-top: 0;
     margin-bottom: 34px;
+
 }
 
 
@@ -176,6 +201,7 @@ head {
     line-height: calc(26 / 16);
     text-align: center;
     letter-spacing: 0.03em;
+    border: none;
     border-radius: 4px;
     cursor: pointer;
     color: var(--color-three);
@@ -201,8 +227,7 @@ head {
 
 /*ul: photo+h2+p*/
 .box {
-    padding: 0;
-    margin-top: 0;
+
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -210,8 +235,18 @@ head {
 
 .box-container {
     width: 370px;
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
+}
+
+.box-border {
+    /* outline: 2px solid red; */
+    /* border: 1px solid #EEEEEE; */
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-top: none;
+    padding: 20px 24px;
+
+
 }
 
 .text-cont {
@@ -222,10 +257,9 @@ head {
 
     color: var(--color-three);
 
-    margin-top: 20px;
     margin-bottom: 4px;
-    margin-left: 24px;
-    margin-right: 24px;
+
+
 }
 
 .about-cont {
@@ -234,15 +268,13 @@ head {
     line-height: 1.8;
     letter-spacing: 0.03em;
     color: var(--color-two);
-    margin-top: 0;
-    margin-bottom: 20px;
-    margin-left: 24px;
-    margin-right: 24px;
+
 }
 
 /*footer*/
 .footer {
     background: #2F303A;
+    padding: 60px 0;
 }
 
 .logo-second {
@@ -256,7 +288,6 @@ head {
     color: var(--first-color);
     padding: 0;
     display: inline-block;
-    margin-top: 60px;
     margin-bottom: 20px;
 }
 
@@ -269,10 +300,9 @@ head {
 }
 
 .footer-list {
-    padding: 0;
+
     display: block;
-    margin-top: 0;
-    margin-bottom: 0;
+
 }
 
 .place {
@@ -318,7 +348,6 @@ head {
     letter-spacing: 0.02em;
     color: var(--color-two);
     display: inline-block;
-    margin-bottom: 60px;
 }
 
 .mail-link-two:hover {
