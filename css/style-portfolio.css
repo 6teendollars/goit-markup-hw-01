@@ -89,7 +89,7 @@ header {
 
     margin-right: 93px;
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 24px;
 }
 
 .logo-black {
@@ -187,7 +187,7 @@ header {
     display: flex;
     gap: 8px;
     justify-content: center;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
 
 }
 
@@ -207,7 +207,7 @@ header {
     color: var(--color-three);
     background: #F5F4FA;
 
-
+    padding: 6px 22px;
 
 }
 

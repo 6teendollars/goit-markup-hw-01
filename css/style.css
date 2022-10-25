@@ -94,7 +94,7 @@ header {
 
     margin-right: 93px;
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 24px;
 
 }
 
@@ -188,7 +188,6 @@ header {
 /*main*/
 .main {
     background: #2F303A;
-    display: flex;
     padding: 200px 0;
 
 }
