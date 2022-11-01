@@ -146,9 +146,11 @@ header {
     letter-spacing: 0.02em;
     color: var(--color-two);
     margin-right: 50px;
+    display: flex;
+    align-items: center;
 }
 
-.phone-link {
+.phone-item {
     font-family: 'Roboto',
         sans-serif;
     font-style: normal;
@@ -157,8 +159,22 @@ header {
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--color-two);
+    display: flex;
+    align-items: center;
 }
 
+.link-item:hover,
+.link-item:focus {
+    fill: #2196F3;
+    color: #2196F3;
+
+}
+
+.contacts-icon {
+    fill: currentColor;
+    margin-right: 10px;
+
+}
 
 .mail-link:hover {
     color: var(--color-one);
@@ -271,7 +287,28 @@ header {
 
 }
 
+.box-shadow {
+    display: block;
+}
+
+.box-shadow:hover {
+    /* border: 1px solid #EEEEEE; */
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 /*footer*/
+
+.main-footer {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-div {
+    width: 231px;
+    margin-right: 70px;
+    margin-left: 0;
+}
+
 .footer {
     background: #2F303A;
     padding: 60px 0;
@@ -302,6 +339,7 @@ header {
 .footer-list {
 
     display: block;
+    width: 231px;
 
 }
 
@@ -360,4 +398,55 @@ header {
 
 .links-two .mail-link-two .phone-link-two:focus {
     color: var(--tx-color);
+}
+
+.footer-links-block {
+    display: block;
+    width: 206px;
+
+
+}
+
+.footer-link-text {
+    display: inline-block;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.socials-list-foot {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+
+
+.socials-link-foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    color: #AFB1B8;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+
+}
+
+.socials-link-foot:hover {
+    color: #fff;
+    background-color: #2196F3;
+}
+
+.socials-icon-foot {
+    fill: currentColor;
 }
