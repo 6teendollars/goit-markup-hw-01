@@ -402,7 +402,6 @@ header {
 
 .footer-links-block {
     display: block;
-    width: 206px;
 
 
 }
@@ -410,7 +409,6 @@ header {
 .footer-link-text {
     display: inline-block;
     font-family: 'Roboto', serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -442,6 +440,7 @@ header {
 
 }
 
+.socials-link-foot:focus,
 .socials-link-foot:hover {
     color: #fff;
     background-color: #2196F3;
