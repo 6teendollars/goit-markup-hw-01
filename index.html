@@ -41,27 +41,25 @@
           </ul>
         </nav>
 
-        <ul class="links">
-          <div class="links-container">
-            <!-- Посилання на адресу електронної пошти  -->
-            <li class="contacts-li">
-              <a class="mail-link link-item" href="mailto:info@devstudio.com">
-                <svg class="contacts-icon" width="16" height="12">
-                  <use href="./SVG/icons.svg#mail"></use>
-                </svg>
-                info@devstudio.com</a
-              >
-            </li>
-            <!-- Посилання на телефонний номер -->
-            <li class="phone-link contacts-li">
-              <a class="phone-item link-item" href="tel:+38096111111">
-                <svg class="contacts-icon" width="10" height="16">
-                  <use href="./SVG/icons.svg#smartphone"></use>
-                </svg>
-                +38 096 111 11 11</a
-              >
-            </li>
-          </div>
+        <ul class="links links-container">
+          <!-- Посилання на адресу електронної пошти  -->
+          <li class="contacts-li">
+            <a class="mail-link link-item" href="mailto:info@devstudio.com">
+              <svg class="contacts-icon" width="16" height="12">
+                <use href="./SVG/icons.svg#mail"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <!-- Посилання на телефонний номер -->
+          <li class="phone-link contacts-li">
+            <a class="phone-item link-item" href="tel:+38096111111">
+              <svg class="contacts-icon" width="10" height="16">
+                <use href="./SVG/icons.svg#smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
         </ul>
       </div>
     </header>
@@ -129,30 +127,26 @@
         <div class="container">
           <h2 class="content-main">Чим ми займаємося</h2>
           <ul class="photo-block">
-            <div class="wrapper-li">
-              <li>
-                <img width="370" src="./images/img-1.jpg" alt="фото-1"/ >
-                <div class="overlay-box">
-                  <p class="overlay-text">Десктопні додатки</p>
-                </div>
-              </li>
-            </div>
-            <div class="wrapper-li">
-              <li>
-                <img width="370" src="./images/img-2.jpg" alt="фото-2" />
-                <div class="overlay-box">
-                  <p class="overlay-text">Мобільні додатки</p>
-                </div>
-              </li>
-            </div>
-            <div class="wrapper-li">
-              <li>
-                <img width="370" src="./images/img-3.jpg" alt="фото-3" />
-                <div class="overlay-box">
-                  <p class="overlay-text">Дизайнерські рішення</p>
-                </div>
-              </li>
-            </div>
+            <li class="wrapper-li">
+              <img width="370" src="./images/img-1.jpg" alt="фото-1" />
+              <div class="overlay-box">
+                <p class="overlay-text">Десктопні додатки</p>
+              </div>
+            </li>
+
+            <li class="wrapper-li">
+              <img width="370" src="./images/img-2.jpg" alt="фото-2" />
+              <div class="overlay-box">
+                <p class="overlay-text">Мобільні додатки</p>
+              </div>
+            </li>
+
+            <li class="wrapper-li">
+              <img width="370" src="./images/img-3.jpg" alt="фото-3" />
+              <div class="overlay-box">
+                <p class="overlay-text">Дизайнерські рішення</p>
+              </div>
+            </li>
           </ul>
         </div>
       </section>
@@ -546,11 +540,12 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="close-btn" type="button" data-modal-close>
-          <svg class="close-btn"" width="30" height="30">
-          <use href="./SVG/icons.svg#close-btn"></use></svg>
+          <svg width="30" height="30">
+            <use href="./SVG/icons.svg#close-btn"></use>
+          </svg>
         </button>
       </div>
     </div>
-     <script src="./js/modal.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
