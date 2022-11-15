@@ -598,13 +598,15 @@ margin-top: 20px;
     color: rgba(255, 255, 255, 0.6);
 } 
 .footer-form-btn {
+    display: flex;
 position: absolute;
 top: 0;
-right: -63%;
+right: -10px;
 top: 40px;
-    /* position: relative; */
-    display: flex;
+   
+   
     padding: 10px 28px;
+   
    
 font-weight: 700;
 font-size: 16px;
@@ -626,6 +628,6 @@ color: #FFFFFF;
    position: absolute;
    top: 13;
 right: 18px;
-
+ margin-left: 10px;
 
 }
