@@ -535,42 +535,42 @@
             </li>
           </ul>
         </div>
-
+    
         <form class="footer-form" name="footer-form">
-          <span class="footer-form-text">Підпишіться на розсилку</span>
+          
 
           <label>
+            <span class="footer-form-text">Підпишіться на розсилку</span>
             <input
             class="footer-form-input"
               type="email"
               name="footer-email"
-              id=""
-              placeholder="E-mail"
-            />
-       
+           
+              placeholder="E-mail"/>
           </label>
+          
           <button class="footer-form-btn" type="submit"><span class="footer-form-text">Підписатися</span>
             <svg class="icon-send" width="24" height="24">
               <use href="./SVG/icons.svg#icon-send"></use></svg>
           </button>
-      
         </form>
-        
+      
       </div>
     </footer>
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="close-btn" type="button" data-modal-close>
-          <svg width="30" height="30">
-            <use href="./SVG/icons.svg#close-btn"></use>
+        <button class="close-btn " type="button" data-modal-close>
+          <svg   width="30" height="30">
+            <use class="close-modal-btn"  href="./SVG/icons.svg#close-btn"></use>
+            <!-- <use class="close-btn-blue" href="./SVG/icons.svg#close-btn-blue"></use> -->
           </svg>
         </button>
 
         <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
 
         <form class="modal-form" name="modal-form">
-          <div class="form-group">
+          
             <label class="form-field">
               <span class="form-lable">Ім'я</span>
               <input class="form-input" type="text" name="user_name" />
@@ -603,14 +603,14 @@
               <textarea
                 class="form-message"
                 name="user_coment"
-                id=""
+             
                 rows="5"
                 placeholder="Введіть текст"
               ></textarea>
 
              
             </label>
-          </div>
+        
 
           <label class="form-agreement">
             <input
