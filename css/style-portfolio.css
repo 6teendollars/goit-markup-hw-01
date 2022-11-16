@@ -407,7 +407,7 @@ header {
     background: #2F303A;
     padding: 60px 0;
 
-    
+
 }
 
 .logo-second {
@@ -508,7 +508,7 @@ header {
 
 .footer-links-block {
     display: block;
-margin-right: 93px;
+    margin-right: 93px;
 
 }
 
@@ -564,11 +564,12 @@ margin-right: 93px;
 
 
 /* footer form */
-.footer-form{
+.footer-form {
     display: flex;
 }
+
 .footer-form-text {
-   
+
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -612,7 +613,7 @@ margin-right: 93px;
 .footer-form-btn {
     display: flex;
     margin-left: 10px;
-margin-top: 39px;
+    margin-top: 39px;
     padding: 10px 20px;
 
     font-weight: 700;
@@ -638,4 +639,3 @@ margin-top: 39px;
 
 
 }
-

@@ -13,11 +13,13 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
 svg path {
-    stroke:inherit;
-    stroke-width:inherit;
-    fill:inherit;
-    }
+    stroke: inherit;
+    stroke-width: inherit;
+    fill: inherit;
+}
+
 img {
     display: block;
 }
@@ -874,11 +876,12 @@ button {
 }
 
 /* footer form */
-.footer-form{
+.footer-form {
     display: flex;
 }
+
 .footer-form-text {
-   
+
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -922,7 +925,7 @@ button {
 .footer-form-btn {
     display: flex;
     margin-left: 10px;
-margin-top: 39px;
+    margin-top: 39px;
     padding: 10px 20px;
 
     font-weight: 700;
@@ -1016,8 +1019,8 @@ margin-top: 39px;
     fill: #000;
 }
 
-.close-modal-btn:hover ,
-.close-btn:hover{
+.close-modal-btn:hover,
+.close-btn:hover {
     fill: var(--first-color);
     color: var(--first-color);
 }
