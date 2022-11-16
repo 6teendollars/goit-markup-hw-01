@@ -1017,12 +1017,18 @@ button {
     /* background-color: #FFFFFF; */
     /* border: 1px solid rgba(0, 0, 0, 0.1); */
     fill: #000;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-modal-btn:hover,
 .close-btn:hover {
     fill: var(--first-color);
     color: var(--first-color);
+
+
 }
 
 
