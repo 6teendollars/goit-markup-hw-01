@@ -1,0 +1,83 @@
+
+.feature{
+    background-color: var(--tx-color);
+
+}
+
+.feature__content {
+    display: flex;
+    gap: 30px;
+
+
+}
+
+.feature__svg--one {
+    display: flex;
+    background-position: 50% 50%;
+    background-color: var(--svg-back);
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-image: url(../SVG/Fisrst/antenna\ 1.svg);
+    background-repeat: no-repeat;
+}
+
+.feature__svg--two {
+    display: flex;
+    background-position: 50% 50%;
+    background-color: var(--svg-back);
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-image: url(../SVG/Fisrst/astronaut\ 1.svg);
+
+}
+
+.feature__svg--three {
+    display: flex;
+    background-position: 50% 50%;
+    background-color: var(--svg-back);
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-image: url(../SVG/Fisrst/clock\ 1.svg);
+}
+
+.feature__svg--four {
+    display: flex;
+    background-position: 50% 50%;
+    background-color: var(--svg-back);
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-image: url(../SVG/Fisrst/diagram\ 1.svg);
+
+}
+
+.feature__text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--second-color);
+    width: 270px;
+
+    margin-bottom: 10px;
+}
+
+.feature__about {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: var(--color-three);
+    width: 270px;
+
+}

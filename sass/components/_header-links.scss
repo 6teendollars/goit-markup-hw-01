@@ -1,0 +1,86 @@
+
+.header__links {
+    padding: 0;
+    margin-left: auto;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+}
+
+.header__contacts{
+    color: #757575;
+
+    height: 12px;
+}
+
+.header__mail {
+    font-family: 'Roboto',
+        sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+    color: var(--color-three);
+    margin-right: 50px;
+
+    display: flex;
+    align-items: center;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+
+    &:hover {
+        fill: #2196F3;
+        color: #2196F3;
+    
+    }
+}
+
+.header__phone {
+    font-family: 'Roboto',
+        sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+    color: var(--color-three);
+
+    display: flex;
+    align-items: center;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
+
+    &:hover {
+        fill: #2196F3;
+        color: #2196F3;
+    
+    }
+}
+
+.header__icon {
+    fill: currentColor;
+    margin-right: 10px;
+
+} 
+
+.header__item:hover,
+.header__item:focus {
+    fill: #2196F3;
+    color: #2196F3;
+
+}
+
+.header__icon :hover {
+    fill: #2196F3;
+}
+
+.header__links .header__mail .header__phone:focus {
+    color: var(--tx-color);
+}
