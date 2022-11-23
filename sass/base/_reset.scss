@@ -29,6 +29,12 @@ a:focus {
     /* display: block; */
 }
 
+button,
+a:focus {
+    color: var(--color-one);
+}
+
+
 /*all*/
 
 
@@ -48,4 +54,20 @@ a {
     color: inherit;
 }
 
+
+
+img {
+    display: block;
+}
+
+
+
+main {
+    background-color: var(--color-four);
+}
+
+
+.menu .links .main:focus {
+    color: var(--first-color);
+}
  
