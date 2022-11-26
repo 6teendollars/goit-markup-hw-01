@@ -20,9 +20,11 @@
     visibility: hidden;
     pointer-events: none;
 
-    &{
-        transform: translateX(-50%) translateY(-100%);
-    }
+  
+}
+
+.backdrop.is-hidden{
+    transform: translateX(-50%) translateY(-100%);
 }
 
 .backdrop__modal {
@@ -42,9 +44,11 @@
 
     transition: transform 250ms ease-out;
 
-    &{
-        transform: translateX(-50%) translateY(-100%);
-    }
+ 
+}
+
+.backdrop__modal{
+    transform: translateX(-50%) translateY(-100%);
 }
 
 
@@ -63,9 +67,6 @@
     border-radius: 50%;
     border: 1px;
     cursor: pointer;
-    /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2); */
-    /* background-color: #FFFFFF; */
-    /* border: 1px solid rgba(0, 0, 0, 0.1); */
     fill: #000;
 
     transition-property: color;
