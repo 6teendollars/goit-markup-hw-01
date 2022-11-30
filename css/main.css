@@ -82,14 +82,34 @@ main {
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .container {
-  width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }
 
 .header {
@@ -369,10 +389,21 @@ main {
 }
 
 .feature__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   gap: 30px;
+}
+@media screen and (min-width: 768px) {
+  .feature__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 .feature__svg--one {
@@ -382,11 +413,21 @@ main {
   background-position: 50% 50%;
   background-color: var(--svg-back);
   border-radius: 4px;
-  width: 270px;
+  width: 450px;
   height: 120px;
   margin-bottom: 30px;
   background-image: url(../SVG/Fisrst/antenna\ 1.svg);
   background-repeat: no-repeat;
+}
+@media screen and (min-width: 768px) {
+  .feature__svg--one {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .feature__svg--one {
+    width: 270px;
+  }
 }
 
 .feature__svg--two {
@@ -396,11 +437,22 @@ main {
   background-position: 50% 50%;
   background-color: var(--svg-back);
   border-radius: 4px;
-  width: 270px;
+  width: 450px;
   height: 120px;
   margin-bottom: 30px;
   background-repeat: no-repeat;
   background-image: url(../SVG/Fisrst/astronaut\ 1.svg);
+}
+@media screen and (min-width: 768px) {
+  .feature__svg--two {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .feature__svg--two {
+    margin-bottom: 30px;
+    width: 270px;
+  }
 }
 
 .feature__svg--three {
@@ -410,11 +462,23 @@ main {
   background-position: 50% 50%;
   background-color: var(--svg-back);
   border-radius: 4px;
-  width: 270px;
+  width: 450px;
   height: 120px;
   margin-bottom: 30px;
   background-repeat: no-repeat;
   background-image: url(../SVG/Fisrst/clock\ 1.svg);
+}
+@media screen and (min-width: 768px) {
+  .feature__svg--three {
+    float: left;
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .feature__svg--three {
+    margin-bottom: 30px;
+    width: 270px;
+  }
 }
 
 .feature__svg--four {
@@ -424,11 +488,22 @@ main {
   background-position: 50% 50%;
   background-color: var(--svg-back);
   border-radius: 4px;
-  width: 270px;
+  width: 450px;
   height: 120px;
   margin-bottom: 30px;
   background-repeat: no-repeat;
   background-image: url(../SVG/Fisrst/diagram\ 1.svg);
+}
+@media screen and (min-width: 768px) {
+  .feature__svg--four {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .feature__svg--four {
+    margin-bottom: 30px;
+    width: 270px;
+  }
 }
 
 .feature__text {
@@ -438,20 +513,47 @@ main {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--second-color);
+  text-align: center;
+  text-transform: uppercase;
   width: 270px;
+  margin: 0 auto;
   margin-bottom: 10px;
 }
-
+@media screen and (min-width: 768px) {
+  .feature__text {
+    margin: 0 0;
+    width: 270px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+}
 .feature__about {
   font-size: 14px;
   line-height: 1.7142857143;
   letter-spacing: 0.03em;
   color: var(--color-three);
-  width: 270px;
+  margin-bottom: 30px;
+  width: 450px;
+}
+@media screen and (min-width: 768px) {
+  .feature__about {
+    width: 354px;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .feature__about {
+    width: 270px;
+  }
 }
 
 .box {
   padding-top: 0;
+}
+@media screen and (max-width: 1199px) {
+  .box {
+    display: none;
+  }
 }
 
 .box__wrapper {
@@ -518,7 +620,12 @@ main {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-color);
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .team__header {
+    margin-bottom: 50px;
+  }
 }
 
 .team__block {
@@ -527,7 +634,26 @@ main {
   display: flex;
   gap: 30px;
 }
-
+@media screen and (max-width: 767px) {
+  .team__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .team__block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
 .team__card {
   background-color: var(--tx-color);
   background: #FFFFFF;
@@ -535,6 +661,37 @@ main {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  width: 450px;
+  height: 622px;
+}
+@media screen and (min-width: 768px) {
+  .team__card {
+    width: 354px;
+    height: 534px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team__card {
+    width: 270px;
+    height: 428px;
+  }
+}
+
+.team__img {
+  width: 450px;
+  height: 460px;
+}
+@media screen and (min-width: 768px) {
+  .team__img {
+    width: 354px;
+    height: 374px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team__img {
+    width: 270px;
+    height: 260px;
+  }
 }
 
 .team__name {
@@ -568,7 +725,7 @@ main {
           justify-content: center;
   gap: 10px;
   padding-top: 16px;
-  padding-bottom: 30px;
+  padding-bottom: 24px;
 }
 
 .team__link {
@@ -615,7 +772,12 @@ main {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .client__text {
+    margin-bottom: 50px;
+  }
 }
 
 .clients__list {
@@ -629,10 +791,25 @@ main {
       -ms-flex-align: center;
           align-items: center;
   gap: 30px;
+  width: 450px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .clients__list {
+    width: 738px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients__list {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    width: auto;
+  }
 }
 
 .clients__link {
-  width: 170px;
+  width: 210px;
   height: 92px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -658,6 +835,18 @@ main {
 .clients__link:focus, .clients__link:hover {
   border-color: #2196F3;
   color: #2196F3;
+}
+@media screen and (min-width: 768px) {
+  .clients__link {
+    width: 226px;
+    height: 92px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients__link {
+    width: 170px;
+    height: 92px;
+  }
 }
 
 .clients__icon {

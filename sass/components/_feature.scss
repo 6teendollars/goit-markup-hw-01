@@ -1,26 +1,49 @@
 
 .feature{
     background-color: var(--tx-color);
+  
+
 
 }
 
 .feature__content {
-    display: flex;
+    display: block;
     gap: 30px;
 
 
+    @media screen and (min-width: $tablet){
+        display: flex;
+        flex-direction: row;
+    flex-wrap: wrap;
+       
+    }
+
+  
+
 }
+
+
+
 
 .feature__svg--one {
     display: flex;
     background-position: 50% 50%;
     background-color: var(--svg-back);
     border-radius: 4px;
-    width: 270px;
+    width: 450px;
     height: 120px;
     margin-bottom: 30px;
     background-image: url(../SVG/Fisrst/antenna\ 1.svg);
     background-repeat: no-repeat;
+
+    @media screen and (min-width: $tablet){
+  
+        width: 354px;
+    }
+
+    @media screen and (min-width: $desktop){
+        width: 270px;
+    }
 }
 
 .feature__svg--two {
@@ -28,12 +51,20 @@
     background-position: 50% 50%;
     background-color: var(--svg-back);
     border-radius: 4px;
-    width: 270px;
+    width: 450px;
     height: 120px;
     margin-bottom: 30px;
     background-repeat: no-repeat;
     background-image: url(../SVG/Fisrst/astronaut\ 1.svg);
 
+    @media screen and (min-width: $tablet){
+        width: 354px;
+    }
+
+    @media screen and (min-width: $desktop){
+        margin-bottom: 30px;
+        width: 270px;
+    }
 }
 
 .feature__svg--three {
@@ -41,11 +72,20 @@
     background-position: 50% 50%;
     background-color: var(--svg-back);
     border-radius: 4px;
-    width: 270px;
+    width: 450px;
     height: 120px;
     margin-bottom: 30px;
     background-repeat: no-repeat;
     background-image: url(../SVG/Fisrst/clock\ 1.svg);
+
+    @media screen and (min-width: $tablet){float: left;
+        width: 354px;
+    }
+
+    @media screen and (min-width: $desktop){
+        margin-bottom: 30px;
+        width: 270px;
+    }
 }
 
 .feature__svg--four {
@@ -53,11 +93,20 @@
     background-position: 50% 50%;
     background-color: var(--svg-back);
     border-radius: 4px;
-    width: 270px;
+    width: 450px;
     height: 120px;
     margin-bottom: 30px;
     background-repeat: no-repeat;
     background-image: url(../SVG/Fisrst/diagram\ 1.svg);
+
+    @media screen and (min-width: $tablet){
+        width: 354px;
+    }
+
+    @media screen and (min-width: $desktop){
+        margin-bottom: 30px;
+        width: 270px;
+    }
 
 }
 
@@ -68,9 +117,28 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--second-color);
-    width: 270px;
 
+    text-align: center;
+    text-transform: uppercase;
+
+    width: 270px;
+    margin: 0 auto;
     margin-bottom: 10px;
+  
+
+    @media screen and (min-width: $tablet){
+        margin: 0 0;
+         width: 270px;
+        text-align:left;
+        margin-bottom: 10px;
+    }
+
+    @media screen and (min-width: $desktop){
+     
+       
+    }
+
+
 }
 
 .feature__about {
@@ -78,6 +146,18 @@
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
     color: var(--color-three);
-    width: 270px;
+    margin-bottom: 30px;
+    width: 450px;
+
+
+    @media screen and (min-width: $tablet){
+        width: 354px;
+        margin-bottom: 0;
+    }
+
+    @media screen and (min-width: $desktop){
+        width: 270px;
+    }
+
 
 }
