@@ -1,8 +1,35 @@
-/* FOOTER-LINKS */
-.footer__links {
-    display: block;
-    margin-right: 93px;
+.footer__address--list{
+    display: flex;
+    flex-direction: column;
+    
 
+    @media screen and (min-width: $tablet){
+       
+    }
+
+    @media screen and (max-width: 1199px){
+        align-items: center;
+    }
+}
+
+
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 60px;
+    margin-bottom: 60px;
+   
+    @media screen and (min-width: $tablet){
+        margin: 0 auto;
+    }
+
+    @media screen and (min-width: $desktop){
+        display: block;
+        margin-right: 93px;
+    }
 
 }
 

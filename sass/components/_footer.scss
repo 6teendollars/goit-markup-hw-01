@@ -2,16 +2,64 @@
 .footer {
     background: #2F303A;
     padding-top: 60px;
-    padding-bottom: 60px;
+
+    @media screen and (max-width: 1199px){
+        padding-bottom: 60px;
+        
+    }
 
 }
 .footer__main {
     display: flex;
-    align-items: baseline;
+
+
+
+    @media screen and (min-width: $tablet){
+       
+    }
+
+    @media screen and (max-width: 1199px){
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    
 }
+.footer__tablet{
+    @media screen and (min-width: $tablet){
+        display: flex;
+        align-items: baseline;
+    justify-content: space-around;
+    margin-bottom: 60px;;
+    
+    }
+
+    @media screen and (min-width: $desktop){
+    }
+
+
+}
+
+
+
 
 .footer__block {
     margin-right: 70px;
+
+    
+
+     
+    
+
+    @media screen and (max-width: 767px){
+        margin: 0 auto;
+    }
+
+    @media screen and (min-width: $desktop){
+    }
+    
 }
 
 

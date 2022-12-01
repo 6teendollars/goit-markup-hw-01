@@ -1,5 +1,7 @@
 .footer__logo {
-    display: inline-block;
+    // display: inline-block;
+    display: flex;
+   
     margin-bottom: 20px;
 
     font-family: 'Raleway',
@@ -10,6 +12,9 @@
     letter-spacing: 0.03em;
     color: var(--first-color);
 
+
+    
+
     &--black {
         color: var(--tx-color);
     }
@@ -17,6 +22,37 @@
     &--blue {
         color: var(--first-color);
     }
+
+
+    @media screen and (min-width: $tablet){
+       
+    }
+
+    @media screen and (max-width: 1199px){
+        flex-direction: column;
+    }
     
 }
 
+.footer__logo--black{
+    display: flex;
+    justify-content: center;
+
+   @media screen and (min-width: $tablet){
+       
+    }
+
+    @media screen and (min-width: $desktop){
+    } 
+}
+
+
+// .footer__place{
+// margin-bottom: 8px;
+// }
+
+// .footer__list--mail{
+//     display: flex;
+//     justify-content: center;
+
+// }
