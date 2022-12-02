@@ -1592,11 +1592,6 @@ main {
   color: #212121;
   text-align: center;
 }
-@media screen and (max-width: 479px), (min-width: 481px) {
-  .modal__title {
-    font-size: 4vw;
-  }
-}
 
 .modal__form {
   /* display: flex; */
@@ -1633,11 +1628,6 @@ main {
   letter-spacing: 0.01em;
   color: #757575;
   margin-bottom: 4px;
-}
-@media screen and (max-width: 479px), (min-width: 481px) {
-  .form__lable {
-    font-size: 2vw;
-  }
 }
 
 .form__input {
@@ -1792,11 +1782,6 @@ main {
       -ms-user-select: none;
           user-select: none;
   /* white-space:nowrap; */
-}
-@media screen and (max-width: 479px), (min-width: 481px) {
-  .form__agreement--text {
-    font-size: 3vw;
-  }
 }
 
 .form__agreement--link {
