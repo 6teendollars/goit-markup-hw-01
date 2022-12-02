@@ -300,37 +300,72 @@ main {
 /*main*/
 .main {
   background-color: #C4C4C4;
-  padding: 200px 0;
-  width: 1600px;
+  padding: 118px 0;
+}
+@media screen and (min-width: 1200px) {
+  .main {
+    padding: 200px 0;
+  }
 }
 
 .main__image {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/background.jpg);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background.jpg);
-  max-width: 1600px;
+  max-width: 480px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+}
+@media screen and (min-width: 100px) and (max-width: 480px) {
+  .main__image {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/header__mobile.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header__mobile.jpg);
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 1200px) {
+  .main__image {
+    max-width: 768px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/header__tablet.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header__tablet.jpg);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main__image {
+    max-width: 1600px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/background.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background.jpg);
+  }
 }
 
 .main__text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 696px;
+  width: 360px;
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.3636363636;
+  font-size: 26px;
+  line-height: 1.6153846154;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--tx-color);
   padding: 0;
 }
+@media screen and (min-width: 768px) {
+  .main__text {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main__text {
+    font-size: 44px;
+    line-height: 1.3636363636;
+    width: 696px;
+  }
+}
 
 .main__button {
   font-family: "Roboto", sans-serif;
   display: block;
-  width: 260px;
+  width: 200px;
   height: 50px;
   border: none;
   background-color: var(--first-color);
@@ -370,6 +405,11 @@ main {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+@media screen and (min-width: 1200px) {
+  .main__button {
+    width: 260px;
+  }
 }
 
 .main__button__text {
