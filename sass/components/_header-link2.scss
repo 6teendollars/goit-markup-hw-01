@@ -1,9 +1,15 @@
 /*LINKS*/
 .header__links {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    padding: 0;
+
+display: none;
+    @media screen and(min-width: $tablet){
+       
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        padding: 0;
+    }
+
 
 }
 

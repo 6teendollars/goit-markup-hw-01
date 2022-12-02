@@ -18,14 +18,13 @@
 }
 .main__image {
 
-    @media screen and (min-width: 100px) and  (max-width: 480px){
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header__mobile.jpg);
-    }
    
-
-    max-width: 480px;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header__mobile.jpg);
+        max-width: 480px;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+    
+ 
 
 
     @media screen and (min-width: 481px) and (max-width: 1200px){

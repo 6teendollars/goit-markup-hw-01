@@ -1,13 +1,17 @@
 
 .header__links {
-    padding: 0;
+
+display: none;
+
+    @media screen and(min-width: $tablet){
+       
+        padding: 0;
     margin-left: auto;
+    }
+
 }
 
-.header__container {
-    display: flex;
-    align-items: center;
-}
+
 
 .header__contacts{
     color: #757575;

@@ -1,6 +1,11 @@
 .header__menu{
-    display: flex;
-    padding: 0;
+    display: none;
+
+    @media screen and(min-width: $tablet){
+        display: flex;
+        padding: 0;
+    
+    }
 
 }
 .header__navigation {

@@ -4,13 +4,19 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 20px;
-    line-height: 23px;
+    line-height: calc(23/20);
     text-align: center;
     letter-spacing: 0.03em;
 
     color: #212121;
 
     text-align: center;
+
+    @media screen and(max-width:479px) ,(min-width:481px){
+        font-size: 4vw;
+    
+    
+    }
 
 }
 
@@ -54,6 +60,11 @@
     color: #757575;
     margin-bottom: 4px;
 
+    @media screen and(max-width:479px) ,(min-width:481px){
+        font-size: 2vw;
+    
+    
+    }
 
 }
 
@@ -194,6 +205,10 @@
 
     user-select: none;
     /* white-space:nowrap; */
+
+    @media screen and(max-width:479px) ,(min-width:481px){
+        font-size: 3vw;
+    }
 }
 
 .form__agreement--link {
