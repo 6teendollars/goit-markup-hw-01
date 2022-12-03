@@ -30,6 +30,8 @@
     margin: 0;
 
     margin-bottom: 10px;
+
+    width: auto;
 }
 
 
@@ -59,7 +61,6 @@
 
 
 }
-
 .form__input {
     width: 100%;
     /* height: 40px; */
@@ -89,7 +90,19 @@
 
 
 
+.modal_text{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+letter-spacing: 0.01em;
 
+color: #757575;
+
+
+}
 
 .form__message {
     width: 100%;
