@@ -33,18 +33,22 @@
     width: 450px;
     height: 120px;
     margin-bottom: 30px;
-    background-image: url(../SVG/Fisrst/antenna\ 1.svg);
     background-repeat: no-repeat;
+    background-image: url(/SVG/Fisrst/antenna\ 1.svg);
 
-    @media screen and (min-width: $tablet){
-  
-        width: 354px;
-    }
+    
+            @media screen and (min-width: $tablet){
+      
+            width: 354px;
+        }
+    
+        @media screen and (min-width: $desktop){
+            width: 270px;
+ 
 
-    @media screen and (min-width: $desktop){
-        width: 270px;
-    }
-}
+            }
+ }
+
 
 .feature__svg--two {
     display: flex;
@@ -55,7 +59,8 @@
     height: 120px;
     margin-bottom: 30px;
     background-repeat: no-repeat;
-    background-image: url(../SVG/Fisrst/astronaut\ 1.svg);
+    background-image: url(/SVG/Fisrst/astronaut\ 1.svg);
+
 
     @media screen and (min-width: $tablet){
         width: 354px;

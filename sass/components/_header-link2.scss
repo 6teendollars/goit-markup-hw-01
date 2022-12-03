@@ -2,7 +2,19 @@
 .header__links {
 
 display: none;
-    @media screen and(min-width: $tablet){
+    @media screen and(min-width: 768px)and(max-width: 1199px){
+       
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        padding: 0;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        
+    }
+
+    @media screen and(min-width: $desktop){
        
         display: flex;
         align-items: center;
@@ -22,9 +34,10 @@ display: none;
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--color-two);
-    margin-right: 50px;
+margin: 0;
     display: flex;
     align-items: center;
+    // align-items: flex-start;
 
     transition-property: color;
     transition-duration: 250ms;
@@ -33,6 +46,9 @@ display: none;
 
     &:hover {
         color: var(--color-one);
+    }
+    @media screen and(min-width: $desktop){
+        margin-right: 50px;
     }
 }
 
