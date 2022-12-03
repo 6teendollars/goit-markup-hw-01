@@ -417,7 +417,7 @@ main {
 }
 @media screen and (max-width: 479px), (min-width: 481px) {
   .mobile-menu {
-    font-size: 9vw;
+    font-size: 8vw;
   }
 }
 
