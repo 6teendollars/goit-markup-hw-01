@@ -14,9 +14,7 @@
 
 
 
-    @media screen and (min-width: $tablet){
-       
-    }
+   
 
     @media screen and (max-width: 1199px){
         align-items: center;
@@ -24,19 +22,26 @@
         justify-content: center;
         align-content: center;
     }
+    @media screen and (min-width: $desktop){
+       padding-bottom: 60px;
+    }
     
     
 }
 .footer__tablet{
+    margin-bottom: 60px;;
+
     @media screen and (min-width: $tablet){
         display: flex;
         align-items: baseline;
     justify-content: space-around;
-    margin-bottom: 60px;;
+    // margin-bottom: 60px;
+
     
     }
 
     @media screen and (min-width: $desktop){
+        margin-bottom: 0;
     }
 
 
@@ -46,18 +51,17 @@
 
 
 .footer__block {
-    margin-right: 70px;
+    @media screen and(max-width:767px){
+       
+    }
+  
 
-    
-
-     
-    
-
-    @media screen and (max-width: 767px){
-        margin: 0 auto;
+    @media screen and (min-width: $tablet){
+        margin-right:165px;
     }
 
     @media screen and (min-width: $desktop){
+        margin-right: 70px;
     }
     
 }

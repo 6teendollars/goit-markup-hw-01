@@ -9,7 +9,12 @@
     margin-bottom: 9px;
 
 }
-
+.footer__list--mail{
+    @media screen and(max-width:767px){
+        margin-bottom: 8px;
+        
+    }
+}
 
 .footer__place {
     font-style: normal;
